@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+    color: #000;
+    padding: 32px 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.main-header {
+    border-bottom: 1px solid;
+    padding-bottom: 41px;
+}
+
+.wrap {
+    width: 947px;
+    margin: 0 auto;
+}
+
+.main-navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-navigation-item {
+    font-size: 18px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    list-style-type: none;
+}
+
+.main-navigation-link{
+    color: #828282;
+}
+
+.active {
+    color: #000;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.section {
+    margin-bottom: 104px;
+}
+
+.section-main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo {
+    font-size: 47px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.caption {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.section-about {
+    text-align: center;
+    background-color: #F6F6F6;
+    min-height: 506px;
+    display: flex;
+}
+
+.section-about-content {
+    margin: auto;
+}
+
+.about-caption {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.about-text {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.section-skills {
+    text-align: center;
+}
+
+.skills-caption {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.skills-text {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.section-skills-tool-text {
+    font-size: 14px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #828282;
+}
+
+.section-skills-tools {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
