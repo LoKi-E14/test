@@ -12,6 +12,15 @@ a {
     text-decoration: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
 .main-header {
     border-bottom: 1px solid;
     padding-bottom: 41px;
@@ -31,7 +40,6 @@ a {
 .main-navigation-item {
     font-size: 18px;
     font-family: 'Gilroy-Bold', sans-serif;
-    list-style-type: none;
 }
 
 .main-navigation-link{
@@ -91,9 +99,17 @@ a {
     text-align: center;
 }
 
+.section-skills-caption {
+    padding-bottom: 69px;
+}
+
 .skills-caption {
     font-size: 34px;
     font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.section-skills-text {
+    padding-bottom: 93px;
 }
 
 .skills-text {
@@ -109,6 +125,82 @@ a {
 
 .section-skills-tools {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-skills-tool-stars {
+    padding-top: 42px;
+    padding-bottom: 111px;
+}
+
+.section-portfolio {
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.portfolio-caption {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    padding-top: 113px;
+}
+
+.portfolio-link {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    text-decoration: underline;
+}
+
+.portfolio-image {
+    padding-bottom: 45px;
+    padding-top: 107px;
+}
+
+.portfolio-image-first {
+    padding-top: 64px;
+}
+
+.portfolio-item-last {
+    padding-bottom: 97px;
+}
+
+.section-contacts {
+    text-align: center;
+}
+
+.contacts-caption {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.contacts-text {
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding-bottom: 38px;
+}
+
+.section-contacts-social-list {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 86px;
+}
+
+.section-contacts-social-item {
+    padding-right: 10px;
+}
+
+.request {
+    font-size: 14px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #828282;
+    padding-top: 86px;
+}
+
+.btn {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    padding: 12px 50px;
 }
